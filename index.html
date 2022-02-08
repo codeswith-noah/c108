@@ -1,0 +1,51 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+      
+        <div class="col-xs-12 header_div text-center">
+          <h1>Sound Controlled Aliens!</h1>
+          <h4>These aliens can identify clapping, bells, snaps, and background noise.</h4>
+          <p>NOTE:(For clapping clap repeatedly and rapidly)</p>
+        </div>
+        <hr>
+        <div class="main_div">
+          <center>
+          <button class="btn btn-warning" onclick="startClassification();">Start</button>
+          <br>
+          <h3 id="result_label">I can hear: </h3>
+          <h4 id="result_confidence">Accuracy: </h4>
+          <img src="aliens-04.png" id="alien1" class="alienimg">
+          <img src="aliens-03.png" id="alien2" class="alienimg">
+          <img src="aliens-02.png" id="alien3" class="alienimg">
+          <img src="aliens-01.png" id="alien4" class="alienimg">
+        </div>
+      </center>
+<script src="main.js"></script>
+      <footer class="footer">
+        Created by NoahE
+      </footer>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+

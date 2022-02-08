@@ -1,0 +1,47 @@
+.alienimg{
+    height:300px;
+    width:300px;
+}
+
+body{
+    text-align:center;
+    font-family: 'Montserrat';
+}
+
+.alienCont{
+    background-color:cornflowerblue;
+}
+
+.header_div{
+    font-family: 'Montserrat';
+    color:darkslategray;
+    letter-spacing:3px;
+    font-size:12px;
+    font-weight:bold;
+    background-color:lightskyblue;
+    padding:100px;
+}
+
+.main_div button{
+    font-style:italic;
+    font-family: sans-serif;
+    margin-top:30px;
+    font-weight:bolder;
+    letter-spacing:5px;
+}
+
+.main_div{
+    padding:100px;
+}
+
+.footer{
+    position:fixed;
+    bottom:0;
+    color:darkblue;
+    line-height:3;
+    width:100%;
+    font-weight:bold;
+    text-shadow: 5px 5px 5px whitesmoke;
+    text-align:center;
+    font-family: 'Montserrat';
+}
